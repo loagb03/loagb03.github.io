@@ -1,0 +1,385 @@
+body{
+	margin: 0;
+	background: #9999ff;}
+/* ====================================================================
+    Header Fosida
+==================================================================== */
+header{
+	color: white;
+	height: 750px;}
+.forsida_container{
+	height: auto;
+	background: linear-gradient(180deg,  #004587,#004785,#004a82,
+		#004c80,#004f7d,#00527a,#005478,#005775,#005973,#005c70,
+		#005e6e,#00616b);}
+.forsida_verkefni{
+	padding: 15px 25px 10px 10px;
+	text-align: right;
+	height: 30px;
+	margin: 0px;}
+.forsida_titill{ text-align: center;}
+.forsida_titill p{
+	margin: 10px auto 50px auto;
+	font-size: 100px;
+	text-shadow: 4px 4px black;
+	line-height: 85px;
+	padding: 25px 0px 25px 0px;
+	border-top: dashed white 5px;
+	border-bottom: dashed white 5px;}
+/*=== Linkur Forsida ===============================================================*/
+.forsida_toplink ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;}
+.forsida_toplink li {
+  float: center;
+  display: inline;}
+.forsida_toplink li a { display: inline-block;}
+/*=== Linkar ===============================================================*/
+.linkur{
+	border:1px solid white;
+	padding: 7px 20px;
+	text-align: center;
+	background: linear-gradient(180deg, #000000,#000059,#0000a6,#0000cc,#0000f2);}
+.linkur:link,
+.linkur:visited{
+	color: white;
+	text-shadow: 1px 1px black;}
+.linkur:hover{ color: violet;}
+.linkur:active{ color: red;}
+/*=== Quote ===============================================================*/
+.center_quote{ text-align: center;}
+.quote{
+	margin: 55px auto 25px auto;
+	padding: 35px;
+	border: 3px dashed white;
+	display: inline-block;
+	font-size: 25px;
+	color: black;
+	text-shadow: 1px 1px lightgray;
+	background: linear-gradient(180deg, #ad82ff,
+ 	  #a37aff,#9973ff,
+ 	  #8f6bff,#8563ff,
+ 	  #7a5cff,#7054ff);}
+.bb{
+	padding-right: 30px; 
+	text-align: right;}
+
+
+
+
+
+/*==================================================================*/
+/* ====================================================================
+    Undirsida
+==================================================================== */
+/*==================================================================*/
+
+.wrapper{ padding: 0px 50px 0px 50px;}
+/* ====================================================================
+    Header
+==================================================================== */
+header{
+	color: white;
+	height: 750px;}
+.container{
+	height: auto;
+	background: linear-gradient(180deg,  #004587,#004785,#004a82,
+		#004c80,#004f7d,#00527a,#005478,#005775,#005973,#005c70,
+		#005e6e,#00616b);}
+.verkefni{
+	padding: 15px 25px 10px 10px;
+	text-align: right;
+	height: 10px;
+	margin: 0px;}
+.titill{ text-align: center;}
+.titill p{
+	margin: 10px auto 50px auto;
+	font-size: 100px;
+	text-shadow: 4px 4px black;
+	line-height: 85px;
+	padding: 25px 0px 25px 0px;
+	border-top: dashed white 5px;
+	border-bottom: dashed white 5px;}
+/*=== Link ===============================================================*/
+.toplink ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px; 
+  overflow: hidden;}
+.toplink li {
+  float: center;
+  display: inline;}
+.toplink li a { display: inline-block;}
+/* ====================================================================
+    Section
+==================================================================== */
+.content{
+	background: #ccebeb;
+	border-top: 3px #009999 dashed;
+	padding: 50px;}
+/* === Jami ==== */
+.JamiLifeStory{
+	display: grid;
+	grid-template-areas: 
+	"Jami_About Jami_EarlyLife"
+	"Jami_Personal Jami_Personal" }
+.JamiAbout{
+	margin: 10px;
+	grid-area: Jami_About;}
+.JamiEarlyLife{
+	margin: 10px;
+	grid-area: Jami_EarlyLife;}
+.JamiPersonal{
+	margin: 10px;
+	grid-area: Jami_Personal;}
+/* === Shah === */
+.ShahCareer{
+	display: grid;
+	grid-template-areas: 
+	"TopicA TopicA"
+	"Ahaegri Avinstri"
+	"Bhaegri Bvinstri"
+	"Chaegri Cvinstri"
+	"QQ QQ"
+	"nedst nedst"}
+.TopTopicA{
+	margin: 10px;
+	grid-area: TopicA;}
+.Atopic{
+	margin: 10px;
+	padding: 0px 25px;
+	grid-area: Ahaegri;}
+.Btopic{
+	margin: 10px;
+	padding: 0px 25px;
+	grid-area: Avinstri;}
+.Ctopic{
+	margin: 10px;
+	padding: 0px 25px;
+	grid-area: Bhaegri;}
+.Dtopic{
+	margin: 10px;
+	padding: 0px 25px;
+	grid-area: Bvinstri;}
+.Etopic{
+	margin: 10px;
+	padding: 0px 25px;
+	grid-area: Chaegri;}
+.Ftopic{
+	margin: 10px;
+	padding: 0px 25px;
+	grid-area: Cvinstri;}
+.Gtopic{
+	margin: 10px;
+	padding: 0px 25px;
+	grid-area: nedst;}
+.Quote{
+	grid-area: QQ;
+	border: white dotted 3px;
+	padding: 10px;
+	background: linear-gradient(220deg, #e8c7ff,
+ 	  #e6ccff,#e3d1ff,
+ 	  #e0d6ff,#dedbff,
+ 	  #dbe0ff,#d9e6ff);
+	margin-bottom: 10px;}
+/* === Tom === */
+.TomLifeStory{
+	display: grid;
+	grid-template-areas: 
+	"Tom_About Tom_EarlyLife"
+	"Tom_Personal Tom_Personal" }
+.TomAbout{
+	margin: 10px;
+	grid-area: Tom_About;}
+.TomEarlyLife{
+	margin: 10px;
+	grid-area: Tom_EarlyLife;}
+.TomPersonalLife{
+	margin: 10px;
+	grid-area: Tom_Personal;
+	display: grid;
+	grid-template-areas: 
+	"TopicB TopicB"
+	"Top Top"
+	"Dhaegri Dvinstri"
+	"Ehaegri Evinstri"
+	"Fhaegri Fvinstri"
+	"Nedst Nedst"}
+.TopTopicB{
+	margin: 10px;
+	margin-bottom: 0px;
+	grid-area: TopicB;}	
+.Htopic{
+	margin: 10px;
+	padding: 0px 25px;
+	grid-area: Top;}
+.Itopic{
+	margin: 10px;
+	padding: 0px 25px;
+	grid-area: Dhaegri;}
+.Jtopic{
+	margin: 10px;
+	padding: 0px 25px;
+	grid-area: Dvinstri;}
+.Ktopic{
+	margin: 10px;
+	padding: 0px 25px;
+	grid-area: Ehaegri;}
+.Ltopic{
+	margin: 10px;
+	padding: 0px 25px;
+	grid-area: Evinstri;}
+.Mtopic{
+	margin: 10px;
+	padding: 0px 25px;
+	grid-area: Fhaegri;}
+.Ntopic{
+	margin: 10px;
+	padding: 0px 25px;
+	grid-area: Fvinstri;}
+
+.TomCareer{
+	display: grid;
+	grid-template-areas: 
+	"TopicC TopicC"
+	"Acting Acting"
+	"Producing Producing"
+	"BreakWithParamount ManagementOfUnitedArtists"}
+.TopTopicC{
+	margin: 10px;
+	margin-bottom: 0pc;
+	grid-area: TopicC;}
+.TomActing{
+	margin: 10px;
+	padding: 0px 25px;
+	grid-area: Acting;}
+.TomProducing{
+	padding: 0px 25px;
+	margin: 10px;
+	grid-area: Producing;}
+.TomBreakWithParamount{
+	padding: 0px 25px;
+	margin: 10px;
+	grid-area: BreakWithParamount;}
+.TomManagementOfUnitedArtists{
+	margin: 10px;
+	padding: 0px 25px;
+	grid-area: ManagementOfUnitedArtists;}
+
+
+/*==================================================================*/
+.Jami h1,
+.Shah h1,
+.Tom h1{
+	padding-top: 10px 0px 0px 0px;
+	margin: 0;
+	border-top: 3px solid black;}
+.Jami p,
+.Shah p,
+.Tom p{
+	padding-left: 10px 0px 0px 0px;
+	margin: 0;
+	border-bottom: 3px solid black;}
+/*==================================================================*/
+/* === Jami ==== */
+.JamiLifeStory h3,
+.JamiCareer h3,
+/* === Shah === */
+.ShahLifeStory h3,
+.ShahCareer h3,
+.ShahAwardsAndRecognitions h3,
+/* === Tom === */
+.TomLifeStory h3,
+.TomCareer h3,
+.TomAwardsAndRecognitions h3,
+.TomLegacy h3,
+.TomLitigation h3{
+	padding: 25px 0px 0px 0px;
+	margin: 0;
+	display: block;
+	border-bottom: 3px dotted black;}
+/*==================================================================*/
+/* === Jami === */
+.JamiLifestory p,
+.JamiCareer p,
+/* === Shah === */
+.ShahLifeStory p,
+.ShahCareer p,
+.ShahAwardsAndRecognitions p,
+/* === Tom === */
+.TomLifeStory p,
+.TomCareer p,
+.TomAwardsAndRecognitions p,
+.TomLegacy p,
+.TomLitigation p{
+	padding: 2px 0px 10px 5px; 
+	margin: 0;}
+/*==================================================================*/
+
+/*=== Link ===============================================================*/
+.bookmark ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;}
+.bookmark ul{
+	padding-top: 20px;
+	padding-left: 10px;}
+.bookmark li { display: inline;}
+.bookmark li a { display: inline-block;}
+
+/* ====================================================================
+    Footer
+==================================================================== */
+.footer{
+	height: auto;
+	background: linear-gradient(180deg,  #004587,#004785,#004a82,
+		#004c80,#004f7d,#00527a,#005478,#005775,#005973,#005c70,
+		#005e6e,#00616b);
+	border-top: 4px white dashed;
+	padding:  10px 30px 10px 30px;
+	display: grid;
+	grid-template-areas: 
+	"Dl Reference"}
+
+.DlListi{
+	color: white;
+	grid-area: Dl;
+	margin: 10px;}
+
+.bottomlink{ 
+	grid-area: Reference;
+	color: white;
+	margin: 10px;}
+.bottomlink ul {
+  list-style-type: none;
+  margin: 0;}
+.bottomlink li{
+	padding: 5px;}
+.bottomlink a{
+	background: linear-gradient(180deg, black, #000066, #0000cc, #1a1aff, #4d4dff, #6666ff);
+	display: inline-block;}
+
+/*=== Link ===============================================================*/
+.topbutton{
+	background: linear-gradient(180deg, #000000,
+		#000059,#0000a6,
+		#0000cc,#0000f2);
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	height: 35px;
+	width: 35px;
+	font-size: 30px;
+	border: solid black 1px;
+	border-radius: 360px;
+	text-align: center;}
+.link:link,
+.link:visited{
+	color: white;
+	text-shadow: 1px 1px black;}
+.link:hover{ color: violet;}
+.link:active{ color: red;}
