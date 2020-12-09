@@ -1,0 +1,265 @@
+*, *:before, *:after {
+  box-sizing: border-box; 
+}
+
+/* ====== GRID Area ====== */
+
+
+/* ====== GRID Template Areas ===== */
+
+
+/* ====== Base CSS ====== */
+
+body {
+	line-height: 1.5em;
+	margin: 0 auto;
+	width: 1250px;
+	background-color: #c4d2ee;
+}
+
+
+/* ========================================
+Efnisyfirlit (mobile)
+======================================== */
+
+/*=======================================================================*/
+.Wrapper{
+	display: grid;
+	grid-template-areas: 
+	"nav nav nav nav nav"
+	"header header header header header"
+	"main main main main main"
+	"footer footer footer footer footer"
+}
+
+/*=======================================================================*/
+/*=======================================================================*/
+nav{
+	grid-area: nav;
+}
+/*================================================*/
+.link{
+	display: grid;
+	grid-template-areas: 
+	"a b c d"
+}
+.link1{
+	grid-area: a;
+}
+.link2{
+	grid-area: b;
+}
+.link3{
+	grid-area: c;
+}
+.link4{
+	grid-area: d;
+}
+
+/*================================================*/
+
+.topnav ul{
+	background: #1c2d1c; 
+}
+.topmenu {
+	display: block;
+	padding: 0;
+	margin: 10;
+	list-style: none; 
+}
+.topmenu li {
+	border: 0;
+	border-left: 1px solid lime; 
+	border-right: 1px solid lime; 
+	padding: 0;
+	margin:0;
+}
+.topmenu a {
+	display: inline-block;     /* ath! */
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: .4em 1em; 
+}
+.topmenu a:hover,
+.topmenu a:active,
+.virkur {
+	color: black !important;
+	background-color: lime;
+}
+
+.topnav {
+	background: #1c2d1c; 
+}
+/*=======================================================================*/
+/*=======================================================================*/
+header{
+	grid-area: header;
+}
+.header {
+	background: tomato; 
+}
+.header h1 {
+	color: #fff;
+	line-height: 1.2;
+	font-weight: normal;
+}
+/*=======================================================================*/
+/*=======================================================================*/
+main{
+	grid-area: main
+}
+.main{
+	display: grid;
+	grid-template-areas: 
+	"vinstri midja midja haegri"
+}
+/*=======================================================================*/
+/*=======================================================================*/
+article{
+	grid-area: midja;
+}
+
+.midja {
+	background: skyblue; 
+}
+.midja h2 {
+	margin: .7em 0 .8em 0;
+}
+.midja h4 {
+	text-align: justify;
+	margin: .4em 0;
+}
+.midja p {
+	text-align: justify;
+}
+/*================================================*/
+.vinstri aside{
+	grid-area: vinstri;
+}
+.vinstri {
+	background: gold;
+}
+/*================================================*/
+.haegri aside{
+	grid-area: haegri;
+}
+.haegri {
+	background: pink; 
+}
+/*================================================*/
+.header,
+.footer,
+.midja,
+.vinstri, 
+.haegri {
+	padding: 1em; 
+}
+/*=======================================================================*/
+/*=======================================================================*/
+footer{
+	grid-area: footer;
+}
+.footer {
+	background: lightgreen; 
+}
+/*=======================================================================*/
+/*=======================================================================*/
+@media screen and (max-width: 48em)
+{
+	.Wrapper{
+		display: grid;
+		grid-template-areas: 
+		"nav nav"
+		"header header"
+		"main main"
+		"footer footer"
+}
+
+	.link{
+		display: grid;
+		justify-content: center;
+		grid-template-rows: 
+		"a b"
+		"c d"
+}
+
+	.main{
+		display: grid;
+		grid-template-areas:
+		"haegri midja midja"
+		"vinstri midja midja"
+}
+/*=======================================================================*/
+/*=======================================================================*/
+@media screen and (max-width: 37.5em)
+{
+	.Wrapper{
+		display: grid;
+		grid-template-areas: 
+		"header"
+		"main"
+		"footer"
+		"nav"
+}
+
+	.link{
+		display: grid;
+		grid-template-areas: 
+		"a"
+		"b"
+		"c"
+		"d"
+}
+
+	.main{
+		display: grid;
+		grid-template-areas: 
+		"vinstri"
+		"midja"
+		"haegri"
+}
+}
+
+
+
+
+/* =======================================
+   myndvinnsla  
+  ======================================== */
+
+/*  hafið myndir <img> alltaf í max-width: 100%; stærð 
+    munið að vinna og þjappa myndir í photoshop ! */
+
+
+/*  ========================================
+Viðmið - breakpoints 30em = 480px + 
+========================================*/
+
+  /* kóði sem yfirritar fyrri skipanir og nýjar skipanir sem eiga við 30em skjástærð */
+
+
+/*  ========================================
+Viðmið - breakpoints 37.5em = 600px + 
+========================================*/
+
+  /* kóði sem yfirritar fyrri skipanir og nýjar skipanir sem eiga við 37.5em skjástærð */
+
+/* ========================================
+Viðmið - breakpoints 48em = 760px +
+======================================== */
+
+  /* kóði sem yfirritar fyrri skipanir og nýjar skipanir sem eiga við 48em skjástærð */  
+
+
+/* ========================================
+Viðmið - breakpoints 60em = 960px +
+======================================== */
+
+  /* kóði sem yfirritar fyrri skipanir og nýjar skipanir sem eiga við 60em skjástærð */  
+
+/* ========================================
+Viðmið - breakpoints 80em = 1280px +
+======================================== */
+
+  /* kóði sem yfirritar fyrri skipanir og nýjar skipanir sem eiga við 80em skjástærð */  
