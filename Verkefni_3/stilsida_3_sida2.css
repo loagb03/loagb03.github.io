@@ -1,0 +1,126 @@
+body{
+	margin: 0 auto;
+	width: 1250px;
+	border: 2px solid black;
+}
+
+.wrapper{
+	display: grid;
+	grid-template-areas: 
+	"haus haus haus haus haus"
+	"listi listi listi listi listi"
+	"vinstri vinstri vinstri megin haegri"
+	"fotur fotur fotur fotur fotur"
+}
+.title{
+	font-size: 20px;
+	padding:10px;
+}
+
+/*=======================================================*/
+
+header{
+	grid-area: haus;
+	border:1px solid black;
+	text-align: center;
+	padding: 20px;
+}
+
+/*=======================================================*/
+
+nav{
+	grid-area: listi;
+	border:1px solid black;
+	text-align: center;
+}
+
+.sidur{
+	display: grid;
+	grid-template-areas: 
+	"sida_one sida_two sida_three sida_four"
+}
+
+.one_sida{
+	grid-area: sida_one;
+	border:1px solid black;
+	text-align: center;
+	padding: 10px;
+}
+.two_sida{
+	grid-area: sida_two;
+	border:1px solid black;
+	text-align: center;
+	padding: 10px;
+}
+.three_sida{
+	grid-area: sida_three;
+	border:1px solid black;
+	text-align: center;
+	padding: 10px;
+}
+.four_sida{
+	grid-area: sida_four;
+	border:1px solid black;
+	text-align: center;
+	padding: 10px;
+}
+
+/*=======================================================*/
+
+main{
+	grid-area: vinstri;
+	border:1px solid black;
+	padding: 10px;
+}
+
+.blockquote-border{
+border-width: 2px;
+border-color: black;
+border-style: solid;
+padding: 20px;
+}
+
+/*=======================================================*/
+
+aside{
+	grid-area: haegri;
+	border:1px solid black;
+	padding: 10px;
+}
+
+/*=======================================================*/
+
+article{
+	grid-area: megin;
+	border:1px solid black;
+	padding: 10px;
+}
+
+/*=======================================================*/
+
+footer{
+	grid-area: fotur;
+	border:1px solid black;
+}
+
+.h{
+	padding:20px;
+	display: grid;
+	grid-template-areas: 
+	"linkur-einn linkur-tveir linkur-thrir"
+
+}
+
+.linkur1{
+grid-area: linkur-einn;
+}
+
+.linkur2{
+grid-area: linkur-tveir;
+}
+
+.linkur3{
+grid-area: linkur-thrir;
+}
+
+/*=======================================================*/

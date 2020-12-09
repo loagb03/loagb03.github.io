@@ -1,0 +1,49 @@
+body {
+	background-color: lightblue;
+	border:2px solid hotpink;
+}
+.special {
+	text-align: center;	
+}
+.test {
+	color: black;
+}
+.colors{
+	color: red;
+	background: white
+}
+.color{
+	color: red;
+}
+.titill{
+	text-align: center;
+	text-decoration: underline;
+}
+.text{
+	color: blue;
+	background: white;
+}
+address{
+	text-align: right;
+}
+
+h1{
+	color: blue ;
+	background: hotpink;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 2px 2px black;
+}
+h2{
+	color: red;
+}
+}
+h4{
+	border-style: dotted; 
+	border-width: 2px;
+	border-color: green;
+}
+}
+p{
+	color: blue;
+}

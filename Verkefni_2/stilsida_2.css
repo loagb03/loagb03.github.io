@@ -1,0 +1,165 @@
+.h1_tagid_med_border {
+	border-width: 3px;
+	border-color: green;
+	border-style: solid;
+	margin: 20px;          
+
+            }
+.box_utan_um_h1_tagid {
+	border-style: solid;
+	border-width: 5px;
+	border-color: red;
+	padding: 20px;  
+	margin: 20px;          
+}
+.innsta_boxid_utan_um_h1_tagid {
+	color: blue;
+	border: 5px dashed blue;
+	padding: 20px;
+}
+
+
+/*=======================================================*/
+/*=======================================================*/
+/*=======================================================*/
+
+ 
+.greendash{
+	border: 3px dashed green;
+	padding: 20px;
+	margin: 20px;
+}
+
+
+.blue_inline{
+	display: inline;
+	border: 3px dashed blue;
+	padding: 1em;
+	margin: 1em;
+	width: 15%	
+}
+
+.red_inline_block{
+	display: inline-block;
+	border: 3px dashed red;
+	padding: 1em;
+	margin: 1em;
+	width: 15%;	
+}
+
+/*=======================================================*/
+/*=======================================================*/
+/*=======================================================*/
+
+img{
+	float: right;
+	padding: 20px 30px;
+}
+
+.rounded img{ 
+	border-radius: 25%	
+}
+
+/*=======================================================*/
+
+.titel_padding{
+	padding: 0px 35px 0px ;
+}
+
+.clearfix{
+	display: flex;
+}
+
+.text_padding{
+	padding: 20px;
+}
+
+.box{
+	float: left;
+	width: 50%
+}
+
+.border{
+	box-sizing: 50%;
+	border-style:solid;
+	border-color: black;
+	border-width:2px;
+}
+
+
+.box_bottom{
+
+	border: 2px solid black;
+
+}
+
+.highlight{
+	background: lightblue;
+}
+
+/*=======================================================*/
+/*=======================================================*/
+
+.blue{
+	background: blue;
+	padding: 0px 0px 40px 0px;
+}
+
+.green{
+	background: green;
+	padding: 0px 0px 40px 0px;
+}
+
+.red{
+	background: red;
+	padding: 0px 0px 40px 0px;
+}
+
+.yellow{
+	background: yellow;
+	padding: 0px 0px 40px 0px;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+ 
+}
+
+.flex-container > div {
+  width: 25%;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+/*=======================================================*/
+
+.Flex-container {
+  display: flex;
+  flex-direction: column-reverse;
+
+}
+
+.Flex-container > div {
+  width: 99%;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.color1{
+	background: blue;
+}
+
+.color2{
+	background: green;
+}
+
+.color3{
+	background: red;
+}
+
+.color4{
+	background: yellow;
+}
