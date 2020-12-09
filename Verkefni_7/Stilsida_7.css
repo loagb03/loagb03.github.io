@@ -1,0 +1,507 @@
+
+/*Computer*/
+
+/*-------------------------------------------------------------------------------------*/
+/*     Body                                                                            */
+/*-------------------------------------------------------------------------------------*/
+body{
+	padding: 0px 50px 0px 50px;
+	margin: 0;
+	background: lightblue;
+}
+/*-------------------------------------------------------------------------------------*/
+/*     Header                                                                          */
+/*-------------------------------------------------------------------------------------*/
+header{
+	text-align: center;
+	color: #009999;
+	padding: 100px 10px 10px 10px;
+	font-size: 350%;
+	text-shadow: 3px 1px white;
+}
+.Topnav ul{
+	list-style-type: none;
+	padding-bottom: 30px;
+}
+.Topnav li{
+	display: inline-block;
+	border: lightblue solid 2px;
+	padding: 10px 25px;
+	background: white;
+}
+.Linkur:link,
+.Linkur:visited{
+	font-size: 16px;
+	color: black;}
+.Linkur:hover{ color: violet;}
+.Linkur:active{ color: red;}
+/*-------------------------------------------------------------------------------------*/
+/*     Wrapper                                                                         */
+/*-------------------------------------------------------------------------------------*/
+.Wrapper{
+	margin: 0;
+	padding: 0;
+	background: white;
+	width: 100%;
+}
+}
+.Mp3{
+	padding: 10px;
+}
+/*-------------------------------------------------------------------------------------*/
+/*     Section 1                                                                       */
+/*-------------------------------------------------------------------------------------*/
+.SectionA{
+	padding: 10px;
+	display: grid;
+	grid-template-areas: 
+	"SaAtopic SaAtopic"
+	"MyndMadur SaBtopic"
+	"SaCtopic SaCtopic"
+}
+.SectionATopicA{
+	grid-area: SaAtopic;
+	padding: 10px;
+
+}
+.SectionATopicB{
+	grid-area: SaBtopic;
+	padding: 10px;
+
+}
+.MyndA{
+	grid-area: MyndMadur;
+	padding: 10px;
+	width: 300px;
+}
+.SectionATopicC{
+	grid-area: SaCtopic;
+	padding: 10px;
+
+}
+/*-------------------------------------------------------------------------------------*/
+/*     Section 2                                                                       */
+/*-------------------------------------------------------------------------------------*/
+.SectionB{
+	padding: 10px;
+	display: grid;
+	grid-template-areas: 
+	"SbAtopic SbAtopic"
+	"SbBtopic MyndTru"
+	"SbCtopic SbCtopic"
+}
+.SectionBTopicA{
+	grid-area: SbAtopic;
+	padding: 10px;
+
+}
+.SectionBTopicB{
+	grid-area: SbBtopic;
+	padding: 10px;
+
+}
+.MyndB{
+	grid-area: MyndTru;
+	padding: 10px;
+	width: 300px;
+}
+.SectionBTopicC{
+	grid-area: SbCtopic;
+	padding: 10px;
+
+}
+/*-------------------------------------------------------------------------------------*/
+/*     Section 3                                                                       */
+/*-------------------------------------------------------------------------------------*/
+.SectionC{
+	padding: 10px;
+	display: grid;
+	grid-template-areas: 
+	"MyndKort MyndKort"
+	"ScAtopic ScAtopic"
+	"ScBtopic ScCtopic"
+}
+.SectionCTopicA{
+	grid-area: ScAtopic;
+	padding: 0px 10px;
+}
+.SectionCTopicB{
+	grid-area: ScBtopic;
+	padding: 0px 10px;
+}
+.SectionCTopicC{
+	grid-area: ScCtopic;
+	padding: 0px 10px;
+}
+.MyndC{
+	grid-area: MyndKort;
+	padding: 10px;
+	width: 80%;
+}
+/*-------------------------------------------------------------------------------------*/
+/*     Section 4                                                                       */
+/*-------------------------------------------------------------------------------------*/
+.SectionD{
+	padding: 10px;
+}
+/*-------------------------------------------------------------------------------------*/
+/*     Footer                                                                          */
+/*-------------------------------------------------------------------------------------*/
+footer{
+	padding: 10px;
+	margin-top: 15px;
+	background: #2447ad;
+	color: white;
+	display: grid;
+	grid-template-areas: 
+	"DL Innri Ytri"
+	"Map Map Map"
+}
+.DlList{
+	grid-area: DL;
+}
+.Innrinav{
+	grid-area: Innri
+}
+.Ytrinav{
+	grid-area: Ytri;
+}
+.Map{
+	width: 100%;
+	grid-area: Map;
+}
+/*-------------------------------------------------------------------------------------*/
+/*     Top button                                                                      */
+/*-------------------------------------------------------------------------------------*/
+.topbutton{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	height: 35px;
+	width: 35px;
+	font-size: 30px;
+	text-align: center;
+}
+.linkur:link,
+.linkur:visited{
+	color: black;
+	text-shadow: 1px 1px blue;}
+.linkur:hover{ color: violet;}
+.linkur:active{ color: red;}
+/*-------------------------------------------------------------------------------------*/
+/*     Linkar                                                                          */
+/*-------------------------------------------------------------------------------------*/
+.link:link,
+.link:visited{
+	color: white;
+	text-shadow: 1px 1px black;}
+.link:hover{ color: violet;}
+.link:active{ color: red;}
+
+
+
+
+/*-------------------------------------------------------------------------------------*/
+/*     Phone                                                                          */
+/*-------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 60em){
+.SectionA{
+	padding: 10px;
+	display: grid;
+	grid-template-areas: 
+	"SaAtopic SaAtopic"
+	"MyndMadur SaBtopic"
+	"SaCtopic SaCtopic"
+}
+.SectionB{
+	padding: 10px;
+	display: grid;
+	grid-template-areas: 
+	"SbAtopic SbAtopic"
+	"SbBtopic MyndTru"
+	"SbCtopic SbCtopic"
+}
+.SectionC{
+	padding: 10px;
+	display: grid;
+	grid-template-areas: 
+	"MyndKort MyndKort"
+	"ScAtopic ScAtopic"
+	"ScBtopic ScCtopic"
+}
+footer{
+	padding: 10px;
+	margin-top: 15px;
+	background: #2447ad;
+	color: white;
+	display: grid;
+	grid-template-areas: 
+	"DL Innri Ytri"
+	"Map Map Map"
+}
+.iframe,
+.Map{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe iframe,
+.iframe img,
+.Map iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+}
+
+
+
+@media screen and (max-width: 48em){
+.SectionA{
+	padding: 10px;
+	display: grid;
+	grid-template-areas: 
+	"SaAtopic SaAtopic"
+	"MyndMadur SaBtopic"
+	"SaCtopic SaCtopic"
+}
+.SectionB{
+	padding: 10px;
+	display: grid;
+	grid-template-areas: 
+	"SbAtopic SbAtopic"
+	"SbBtopic MyndTru"
+	"SbCtopic SbCtopic"
+}
+.SectionC{
+	padding: 10px;
+	display: grid;
+	grid-template-areas: 
+	"MyndKort MyndKort"
+	"ScAtopic ScAtopic"
+	"ScBtopic ScCtopic"
+}
+footer{
+	padding: 10px;
+	margin-top: 15px;
+	background: #2447ad;
+	color: white;
+	display: grid;
+	grid-template-areas: 
+	"DL Innri"
+	"Ytri Ytri"
+	"Map Map"
+}
+.iframe,
+.Map{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe iframe,
+.iframe img,
+.Map iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+}
+
+
+
+@media screen and (max-width: 37.5em){
+.SectionA{
+	padding: 10px;
+	display: grid;
+	grid-template-areas: 
+	"SaAtopic SaAtopic"
+	"MyndMadur SaBtopic"
+	"SaCtopic SaCtopic"
+}
+.SectionB{
+	padding: 10px;
+	display: grid;
+	grid-template-areas: 
+	"SbAtopic SbAtopic"
+	"SbBtopic MyndTru"
+	"SbCtopic SbCtopic"
+}
+.SectionC{
+	padding: 10px;
+	display: grid;
+	grid-template-areas: 
+	"MyndKort MyndKort"
+	"ScAtopic ScAtopic"
+	"ScBtopic ScCtopic"
+}
+footer{
+	padding: 10px;
+	margin-top: 15px;
+	background: #2447ad;
+	color: white;
+	display: grid;
+	grid-template-areas: 
+	"DL Innri"
+	"Ytri Ytri"
+	"Map Map"
+}
+.iframe,
+.Map{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe iframe,
+.iframe img,
+.Map iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+}
+
+
+
+@media screen and (max-width: 30em){
+body{
+	padding: 0px 10px 0px 10px;
+	margin: 0;
+	background: lightblue;
+}
+
+.SectionA{
+	padding: 10px;
+	display: grid;
+	grid-template-areas: 
+	"SaAtopic"
+	"MyndMadur"
+	"SaBtopic"
+	"SaCtopic"
+}
+.SectionB{
+	padding: 10px;
+	display: grid;
+	grid-template-areas: 
+	"SbAtopic"
+	"SbBtopic"
+	"MyndTru"
+	"SbCtopic"
+}
+.SectionC{
+	padding: 10px;
+	display: grid;
+	grid-template-areas: 
+	"MyndKort"
+	"ScAtopic"
+	"ScBtopic"
+	"ScCtopic"
+}
+footer{
+	padding: 10px;
+	margin-top: 15px;
+	background: #2447ad;
+	color: white;
+	display: grid;
+	grid-template-areas: 
+	"DL"
+	"Innri"
+	"Ytri"
+	"Map"
+}
+.iframe,
+.Mp3,
+.Map{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe iframe,
+.iframe img,
+.Mp3 audio,
+.Map iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+}
+
+
+
+
+@media screen and (max-width: 0em){
+	body{
+	padding: 0px 10px 0px 10px;
+	margin: 0;
+	background: lightblue;
+}
+.SectionA{
+	padding: 10px;
+	display: grid;
+	grid-template-areas: 
+	"SaAtopic"
+	"MyndMadur"
+	"SaBtopic"
+	"SaCtopic"
+}
+.SectionB{
+	padding: 10px;
+	display: grid;
+	grid-template-areas: 
+	"SbAtopic"
+	"SbBtopic"
+	"MyndTru"
+	"SbCtopic"
+}
+.SectionC{
+	padding: 10px;
+	display: grid;
+	grid-template-areas: 
+	"MyndKort"
+	"ScAtopic"
+	"ScBtopic"
+	"ScCtopic"
+}
+footer{
+	padding: 10px;
+	margin-top: 15px;
+	background: #2447ad;
+	color: white;
+	display: grid;
+	grid-template-areas: 
+	"DL"
+	"Innri"
+	"Ytri"
+	"Map"
+}
+.iframe,
+.Mp3,
+.Map{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe iframe,
+.iframe img,
+.Mp3 audio,
+.Map iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+}
